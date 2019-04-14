@@ -40,7 +40,7 @@ private:
 template<class DataType>
 inline LinkList<DataType>::LinkList()
 {
-	first = new Node;	//generating header
+	first = new Node<DataType>;	//generating header
 	first->next = NULL;	//the header pointer field is empty
 }
 
