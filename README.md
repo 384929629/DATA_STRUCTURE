@@ -1,9 +1,6 @@
-all files is .h
-
-
-1.if use my codes,please write
+1.if use my codes,please add
 /***************************************
-@author		:ZIYUSONG              *
+@author		:ZIYU SONG             *
 @data		:IN PROGRESS           *
 @note		:DATA STRUCTURE        *
 @API		:as follows	       *
