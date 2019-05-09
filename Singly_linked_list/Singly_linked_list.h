@@ -9,8 +9,8 @@
 @API		:as follows			   *
 ***********************************/
 
-#include <iostream>
-using namespace std;
+//#include <iostream>
+//using namespace std;
 
 template<class DataType>
 struct  Node
@@ -36,6 +36,8 @@ public:
 private:
 	Node<DataType> *first;
 };
+
+#endif
 
 template<class DataType>
 inline LinkList<DataType>::LinkList()
@@ -178,7 +180,3 @@ inline void LinkList<DataType>::PrintList()
 		p = p->next;
 	}
 }
-
-
-
-#endif
